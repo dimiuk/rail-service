@@ -1,0 +1,72 @@
+
+
+@media screen and (min-width: 0px) {
+
+    * {
+        box-sizing: border-box;
+    }
+    #train-logo {
+        height: 50px;
+        width: auto;
+    }
+    
+    #navigation {
+        display: flex;
+        justify-content: flex-end;
+        flex-grow: 1;
+    }
+    
+    #landing-page-img {
+        width: 100%;
+        height: auto;
+    }
+
+    #background-pic {
+        width: 100%;
+    }
+
+    #covid-pic {
+        max-width: 100%;
+    }
+
+    /* .container-rail {
+        display: flex;
+        flex-direction: column;
+    } */
+
+    footer {
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(251, 249, 249);
+        border-top: 1px solid black;
+
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+    .container-rail {
+        display: flex;
+        width: 100%;
+        /* align-items: center; */
+        /* flex-direction: row; */
+    }
+
+    p {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #background-pic {
+        width: 50%;
+    }
+
+    #covid-pic {
+        width: 50%;
+    }
+
+
+
+}
